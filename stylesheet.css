@@ -6,8 +6,30 @@
     margin: 0;
 }
 .banner{
+    
     width:30%;
-    background-image: url(/casey-horner-RmoWqDCqN2E-unsplash.jpg);
+    background-image: url(/mika-baumeister-8Qi6Yn6qDyA-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.logo{
+    display: flex;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+.injector{
+    height: 10vh;
+}
+h1{
+    color: black;
 }
 .text{
     width: 70%;
@@ -27,7 +49,7 @@ h2{
 }
 .top{
     height: 33vh;
-    background-color: aquamarine;
+    background-color: lightcyan;
     
 }
 .texth2{
@@ -38,14 +60,15 @@ h2{
 }
 .middle{
     display: flex;
-    
-    background-color: antiquewhite;
+    background-color: lightslategray;
     height: 33vh;
     flex-wrap: wrap;
+    
 }
 .form-section{
     display: flex;
     gap: 2rem;
+    
     
 }
 
@@ -65,13 +88,14 @@ h2{
 }
 
 .lower{
-    background-color: lemonchiffon;
+    background-color: lightcyan;
     height: 34vh;
+    
 }
 
 button {
     
-    background-color: #4CAF50; /* Green */
+    background-color: lightslategray; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
